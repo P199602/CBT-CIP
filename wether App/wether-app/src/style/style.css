@@ -1,0 +1,160 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image:url(https://images.hdqwalls.com/download/clouds-hd-3840x2160.jpg);
+    background-size: cover;
+
+}
+.top-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:whitesmoke;
+    font-size: 50px;
+    padding-bottom: 0%;
+
+}
+.top-bar-s{
+    color: aliceblue;
+    padding:10px;
+    
+}
+
+.card-1 img{
+    width: 15vw;
+    height: 20vh;
+    border-radius: 40%;
+}
+
+.card-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20vh;
+    width: 20vw;
+    height:60vh;
+    flex-direction: column;
+    background-color: rgb(213, 198, 226);
+    box-shadow: 5px 5px  black;
+    
+}
+.card-2 button{
+    margin: 10px;
+    padding:2px;
+    background-color: blue;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.weather-inf ,p ,h2{
+    margin: 10px;
+    padding: 10 px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-2{
+    display: flex;
+    flex-wrap:wrap ;
+    
+}
+.card-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20vh;
+    width: 20vw;
+    height:60vh;
+    flex-direction: column;
+    background-color: rgb(99, 99, 241);
+    background-color: rgb(213, 198, 226);
+    box-shadow: 5px 5px black;
+    margin-left: 40vh;
+    
+}
+.card-3 img{
+    width:120px;
+    height: 120px;
+    margin: 5px;
+    border-radius: 40%;
+
+}
+.card-1 input{
+    background-color: blue;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.forecast{
+    display: flex; 
+}
+.forecast-t{
+    width: 20vw;
+    height: 20vh;
+    border: 2px solid black;
+    background-color:rgb(213, 198, 226);
+    color:black;
+    margin: 2vh;
+
+}
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 10vh;
+    color: aliceblue;
+}
+.input-city{
+    margin: 5px;
+}
+@media only screen and (max-width: 768px) {
+    .card-1 ,.card-2 ,.card-3{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .forecast{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .forecast-t{
+        width:30vw;
+        height: 20vh;
+        margin: 2vw;
+        margin-top: 15vh;
+        padding: 20px;
+    }
+    .weather-inf ,p ,h2{
+        margin: 1vh;
+
+    }
+    .card-3 img{
+        width: 40vw;
+        height: 40vw;
+    }
+    h2{
+        width: 100vw;
+    }
+    .card-1 ,.card-3{
+        width: 50vw;
+        margin-left: 10vh;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    }
+  }
+  .input-bar{
+    padding: 10px;
+    margin: 1vh;
+  }
+  .insert-field{
+    margin-left: 10vh;
+    margin: 10px;
+    width: 300px;
+  }
