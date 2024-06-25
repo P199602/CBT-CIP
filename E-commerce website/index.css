@@ -1,0 +1,214 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: rgb(157, 85, 224) !important;
+}
+.navbar-brand img{
+    width: 50px;
+    height: 50px;
+}
+nav{
+    margin: 0%;
+    padding: 0%;
+}
+.nav-link img{
+    width: 50px;
+    height: 50px;   
+}
+.nav-link{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.nav-link:hover{
+    color: rgb(47, 19, 73) !important;
+    text-decoration: underline 2px solid pink; 
+    font-size: 20px;
+}
+.container-fluid{
+    background-color: rgb(157, 85, 224) !important;
+}
+.welcome{
+    display: flex;
+    background-color: pink;
+}
+.welcome img{
+    width: 50vh;
+    height: 50vh;
+    margin-left:70vw;
+
+}
+.welcome-Content{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60vw;
+    margin-top: 10vh;
+}
+.welcome button{
+    padding: 5px;
+    background-color: yellow;
+}
+.welcome button a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: blueviolet;
+
+}
+.ProductImg{
+    width: 15vw;
+    height: 25vh;
+
+
+}
+.renderData{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10vw;
+}
+.product{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    width: 18vw;
+    height:60vh;
+    background-color: pink;
+    box-shadow:5px 5px  5px 5px black;
+}
+.product .price{
+     padding: 5px;
+     margin: 5px;
+}
+.product .Name{
+    font-size: 15px;
+}
+.Addtocart{
+    position: absolute;
+    z-index: 1;
+    margin: 20px;
+    background-color: yellow;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    margin-top: 35vh;
+    padding: 4px;
+    }
+
+    @media only screen and (max-width:520px) {
+        .renderData{
+        display: flex;
+        flex-direction: column;
+        }
+        .product{
+            width: 60vw;
+        }
+        .ProductImg{
+            width: 40vw;
+            height: 50vw;
+        }
+        .Addtocart{
+            margin-top: 40vh;
+        }
+        .product .Name{
+            width:40vw;
+        }
+        .welcome img{
+            width:20vw;
+            height: 30vh;
+        }
+        .renderCart img{
+            width: 50px;
+            height:50px;
+        }
+        .footer{
+            margin-bottom: 0%;
+        }
+        .welcome-Content{
+            margin: 10px;
+        }
+        }
+.renderCart img{
+    width: 10vw;
+    height: 20vh;
+    padding: 5px;
+}
+.renderCart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    background-color: pink;
+    margin-left: 20vw;
+    margin-top: 10vw;
+    
+}
+.renderCart .btn{
+    background-color: yellow;
+    margin: 10px;
+}
+.renderCart .btnBuy{
+    background-color: yellow;
+    width: 100px;
+    margin-left: 10vw;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+.renderCart .btnTotal{
+    background-color: yellow;
+    width: 100px;
+    margin-left: 20vw;
+}
+.Ctotal{
+    margin-top: 1vh;
+}
+#Mobile,#person_name ,#person_Email{
+    margin-bottom: 5px;
+}
+.submitBtn{
+    background-color: yellow;
+    width: 100px;
+    margin-left: 20vw;
+    margin-top: 10vh;
+    margin: 5px 0;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color:aliceblue ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20vh;
+    margin-bottom: 0%;
+   
+}
+.detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.blog{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: pink;
+
+}
+.blog p{
+    padding:70px;
+}
